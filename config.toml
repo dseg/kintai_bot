@@ -18,7 +18,6 @@ from = 'MY BOT'
 
 # メール送信先。複数ある場合は、カンマで区切って下さい。
 to = 'd.shinozaki@z.com'
-# to = 'int-kintai@gmo-click.com,int-dev-kintai@gmo-click.com'
 
 # For body, use the ejs template system.
 # Please read about the template format here > http://ejs.co/

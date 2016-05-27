@@ -1,7 +1,7 @@
 {
     "name": "kintai_bot.js",
-    "version": "0.1.0",
-    "description": "Kintai Bot of CFOP team",
+    "version": "0.0.1",
+    "description": "Kintai Bot of XYZZY team",
     "main": "kintai_bot.js",
     "author": "d.shinozaki@z.com",
     "scripts": {

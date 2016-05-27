@@ -1,0 +1,16 @@
+{
+    "name": "kintai_bot.js",
+    "version": "0.1.0",
+    "description": "Kintai Bot of CFOP team",
+    "main": "kintai_bot.js",
+    "author": "d.shinozaki@z.com",
+    "scripts": {
+      "start": "node kintai_bot.js"
+    },
+    "devDependencies": {
+        "botkit": "^0.2.0",
+	"mustache": "^2.2.1",
+	"toml": "^2.3.0",
+	"mailgun-js": "^0.7.11"
+    }
+}

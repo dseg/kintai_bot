@@ -1,0 +1,38 @@
+# TOML SPEC:
+# https://github.com/toml-lang/toml/blob/master/versions/en/toml-v0.4.0.md
+
+title = 'Kintai Bot Config'
+
+[slack]
+# NOTE: YOU MUST SET THE SLACK TOKEN HERE
+token = ''
+
+[mailgun]
+# NOTE: YOU MUST SET THE MAILGUN APIKEY HERE
+key = ''
+# NOTE: YOU MUST SET THE MAILGUN DOMAIN HERE
+domain = ''
+
+[mail]
+from = 'MY BOT'
+
+# メール送信先。複数ある場合は、カンマで区切って下さい。
+to = 'd.shinozaki@z.com'
+# to = 'int-kintai@gmo-click.com,int-dev-kintai@gmo-click.com'
+
+# For body, use the ejs template system.
+# Please read about the template format here > http://ejs.co/
+body = '''
+お疲れさまです。XYZZYチーム 勤怠BOTです。
+メンバーからの勤怠連絡がありましたので報告します。
+
+日付: <%= user.date %>
+勤怠種別: <%= user.type %>
+時刻(遅刻・早退時): <%= user.time %>
+理由: <%= user.reason %>
+元のメッセージ: <%= user.orig_msg %>
+
+よろしくお願い致します。
+--
+BOT拝
+'''

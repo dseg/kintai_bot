@@ -7,7 +7,7 @@ BOTに話しかけると、勤怠の概要を表示しつつ、メールを送�
 送りたかったら yes, やめる場合は noと話しかけて下さい。
 
 ![BOTに話しかける](http://dseg.github.io/img/kintai_bot/1o.png)
-![(設定先に)メールが送信される](http://dseg.github.io/img/kintai_bot/2o.png)
+![(設定先に)メールが送信される](http://dseg.github.io/img/kintai_bot/0o.png)
 
 # 使い方
 ```bash
